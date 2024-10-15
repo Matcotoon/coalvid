@@ -1,0 +1,45 @@
+.float {
+    position: fixed;
+    width: auto; /* Cambiado de 60px a auto para que el ancho se ajuste al contenido */
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center; /* Para alinear el ícono y el texto verticalmente */
+    padding: 0 15px; /* Añadido para dar espacio al texto */
+	@include tablet{
+		.float {
+			border-radius: 5rem;
+		}
+	}
+	
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-left: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.text {
+    font-size: 1.8rem; /* Tamaño del texto */
+	font-weight: $black;
+    margin-right: 10px; /* Espacio entre el texto y el borde izquierdo */
+	display: none;
+}
+@include tablet{
+	.text {
+        display: inline; /* Muestra el texto solo en pantallas grandes */
+    }
+}

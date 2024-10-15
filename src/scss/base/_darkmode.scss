@@ -1,0 +1,81 @@
+.dark-mode{
+    background-color: darken($grisOscuro, 10);
+    td{
+        color: $blanco;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    p, td {
+        color: $blanco;
+
+    }
+    a, h1, h2, h3, h4 {
+        color: $gris;
+    }
+    .anuncio,
+    .resumen-propiedad{
+        text-align: justify;
+        background-color: $grisOscuro;
+        border: 1px solid $grisOscuro;
+        .precio{
+            color: $blanco;
+        }
+        .icono{
+            filter: invert(100%);
+        }
+    }
+    .resumen-anuncio{
+        text-align: justify;
+        p{
+            font-weight: $bold;
+        }
+    }
+    .descripcion-anuncio{
+        text-align: justify;
+        font-weight: $delgada;
+    }
+    .texto-nosotros blockquote {
+        color: $blanco;
+    }
+    .formulario{
+        label, legend, p {
+            color: $gris;
+        }
+
+        input:not([type="submit"]),
+        textarea,
+        select {
+            background-color: $grisOscuro;
+            border: 1px solid $grisOscuro;
+            color: $blanco;
+        }
+    }
+    .credito{
+        color: $verde;
+    }
+    .resumen-blog{
+        text-align: justify;
+        
+        p{
+            font-size: 2rem;
+            font-weight: 100;
+        }
+        li{
+            font-size: 2rem;
+            margin: 0;
+            color: $blanco;
+        }
+        ul{
+            list-style-type: decimal;
+            margin: 0;
+        }
+        span{
+            font-weight: 300;
+        }
+    }
+    .blog{
+        text-align: left;
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+}

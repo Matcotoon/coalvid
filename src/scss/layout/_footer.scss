@@ -1,0 +1,30 @@
+.footer{
+    padding: 2.5rem 0;
+    background-color: $grisOscuro;
+    margin-bottom: 0;
+    width: 100%;
+.contenedor-footer{
+    padding-top: 2.5rem;
+}
+.navegacion{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    img{
+        margin-top: 1rem;
+        height: 3rem;   
+        justify-content: left;
+    }
+}
+.copyright{
+    color: $blanco;
+    text-align: center;
+    margin-bottom: 0;
+}
+}
+.credito{
+    margin-top: 0;
+    color: $verde;
+    text-align: center;
+    font-size: 1.5rem;
+}
