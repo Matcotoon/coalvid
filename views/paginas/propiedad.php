@@ -1,7 +1,7 @@
 <main class="contenedor seccion">
         <h1><?php echo $propiedad->titulo?></h1>
         <div class="video">
-        <video width="100%" src="/videos/<?php echo $propiedad->video?>" autoplay muted loop></video>
+        <video width="100%" src="/videos/<?php echo $propiedad->video?>" controls muted loop></video>
         </div>
         <h2>Galeria del Proyecto</h2>
         <div class="fotos">

@@ -1,14 +1,7 @@
 /* Mostrar el listado y ocultar el carrusel en pantallas grandes */
 .listado {
-    display: none;
-    @include tablet{
-        display: block;
-    }
-}
-
-.carrusel {
     display: block;
     @include tablet{
-        display: none;
+        display: block;
     }
 }

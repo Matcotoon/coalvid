@@ -26,11 +26,6 @@
         <div class="listado">
             <?php include 'listado.php'; ?>
         </div>
-
-        <!-- Carrusel de propiedades para pantallas pequeñas -->
-        <div class="carrusel">
-            <?php include 'carrusel_proyectos.php'; ?>
-        </div>
     </section>
         <div class=" contenedor alinear-derecha">
             <a href="/propiedades" class="boton-rojo">Ver Proyectos</a>
@@ -42,11 +37,6 @@
           <!-- Listado de propiedades para pantallas grandes -->
           <div class="listado">
             <?php include 'lista.php'; ?>
-        </div>
-
-        <!-- Carrusel de propiedades para pantallas pequeñas -->
-        <div class="carrusel">
-            <?php include 'carrusel_productos.php'; ?>
         </div>
 
     </section>
