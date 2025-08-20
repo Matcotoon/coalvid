@@ -13,7 +13,10 @@
    */
   
   body {
-    margin: 0;
+    height: 100%;     /* Asegura el 100% del alto */
+    width: 100%;      /* Asegura el 100% del ancho */
+    margin: 0;        /* Elimina cualquier margen por defecto */
+    padding: 0;       /* Elimina cualquier padding por defecto */
   }
   
   /**

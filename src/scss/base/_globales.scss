@@ -1,20 +1,27 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    height: 100%;
+    width: 100%; /* Asegura el 100% del ancho */
 
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body {
     font-family: $fuente_principal;
     font-size: 1.6rem;
     line-height: 1.8;
+     height: 100%;     /* Asegura el 100% del alto */
+    width: 100%;      /* Asegura el 100% del ancho */
+    margin: 0;        /* Elimina cualquier margen por defecto */
+    padding: 0;       /* Elimina cualquier padding por defecto */
 
 }
 
 .contenedor {
-    width: 95%;
+    width: 100%;
     max-width: 100rem;
     margin: 0 auto;
 }
