@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -9,14 +10,12 @@ body {
     font-family: $fuente_principal;
     font-size: 1.6rem;
     line-height: 1.8;
-    &.overflow-hidden{
-        overflow: hidden;
-    }
+
 }
 
 .contenedor {
     width: 95%;
-    max-width: 120rem;
+    max-width: 100rem;
     margin: 0 auto;
 }
 a {

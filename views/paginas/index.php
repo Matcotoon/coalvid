@@ -26,10 +26,15 @@
         <div class="listado">
             <?php include 'listado.php'; ?>
         </div>
-    </section>
+        
+        <div class="carrusel">
+            <?php include 'carrusel_proyectos.php'; ?>
+        </div>
         <div class=" contenedor alinear-derecha">
             <a href="/propiedades" class="boton-rojo">Ver Proyectos</a>
         </div>
+    </section>
+        
     <section class="seccion contenedor" data-aos="fade-up">
         <div class= "icono">
         <h1>Productos</h1>
@@ -38,11 +43,16 @@
           <div class="listado">
             <?php include 'lista.php'; ?>
         </div>
-
-    </section>
+        
+        <div class="carrusel">
+            <?php include 'carrusel_productos.php'; ?>
+        </div>
         <div class="contenedor alinear-derecha">
             <a href="/producto" class="boton-rojo">Ver Productos</a>
         </div>
+
+    </section>
+        
 
     <section class="imagen-contacto">
         <h2>Somos la mejor opcion para tu proyecto</h2>

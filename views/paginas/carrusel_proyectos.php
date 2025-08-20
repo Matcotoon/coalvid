@@ -1,11 +1,9 @@
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <?php foreach($propiedades as $propiedad) { ?>
-        <div class="swiper-slide">
-            <div class="anuncio">
-                <img src="/imagenes/<?php echo $propiedad->imagen1?>" alt="Anuncio 1" loading="lazy">
+<div class="contenedor-anuncios">
+            <?php foreach($propiedades as $propiedad) { ?>
+            <div <?php aos_animacion(); ?> class="anuncio">
+                   <img src="/imagenes/<?php echo $propiedad->imagen1?>" alt="Anuncio 1" loading="lazy">
                 <div class="contenido-anuncio">
-                <h3><?php echo $propiedad->titulo?></h3>
+                    <h3><?php echo $propiedad->titulo?></h3>
                     <p>Arquitecto: <span class="precio"> <?php echo $propiedad->arquitecto?>  </span> </p>
                     <p>Aluminio: <span class="precio"> <?php echo $propiedad->aluminio?>  </span> </p>
                     <p>Puertas: <span class="precio"> <?php echo $propiedad->puertas?>  </span> </p>
@@ -16,6 +14,5 @@
                     </a>
                 </div><!--.contenido-anuncio-->
             </div><!--anuncio-->
-        </div><!--.swiper-slide-->
-        <?php } ?>
-    </div><!--.swiper-wrapper-->
+            <?php } ?>
+        </div><!--.contenedor-anuncios-->

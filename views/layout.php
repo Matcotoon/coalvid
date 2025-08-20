@@ -23,10 +23,12 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <div class="contenedor">
     <a data-aos="fade-left" href="https://api.whatsapp.com/send?phone=593967872275&text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" class="float" target="blank">
     <span data-aos="fade-left" class="text">Chatea con nosotros</span>
     <i data-aos="fade-left" class="fa fa-whatsapp my-float"></i>
     </a>
+    </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 

@@ -1,9 +1,7 @@
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <?php foreach($productos as $producto) { ?>
-        <div class="swiper-slide">
-            <div class="anuncio">
-                <img src="/imagenes/<?php echo $producto->imagen1?>" alt="Anuncio 1" loading="lazy">
+<div class="contenedor-anuncios">
+            <?php foreach($productos as $producto) { ?>
+            <div <?php aos_animacion(); ?> class="anuncio">
+                    <img src="/imagenes/<?php echo $producto->imagen1?>" alt="Anuncio 1" loading="lazy">
                 <div class="contenido-anuncio">
                     <h3><?php echo $producto->titulo?></h3>
                     <p>Caracteristicas</p>
@@ -14,6 +12,5 @@
                     </a>
                 </div><!--.contenido-anuncio-->
             </div><!--anuncio-->
-        </div><!--.swiper-slide-->
-        <?php } ?>
-    </div><!--.swiper-wrapper-->
+            <?php } ?>
+        </div><!--.contenedor-anuncios-->
